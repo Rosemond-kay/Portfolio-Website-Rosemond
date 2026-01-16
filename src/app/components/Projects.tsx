@@ -29,7 +29,7 @@ export default function Projects() {
       description: "a desktop application that allows university admission officers to calculate a candidate's aggregate scores for the west african senior school certificate examination (wassce) based on their subject grades. features a user-friendly interface and instant results display.",
       technologies: ["React", "TensorFlow", "Image Preprocessing", "OCR", "CSS"],
       githubUrl: "https://github.com/Rosemond-kay/Custom-Exam-Results-OCR",
-      liveUrl: "https://example.com"
+      
     },
     {
       title: "MindMama - An AI-powered mobile app for mothers to manage their chores and tasks",
