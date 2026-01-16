@@ -26,20 +26,20 @@ export default function Projects() {
     },
     {
       title: "WASSCE Results Aggregate Calculator",
-      description: "a web application that allows university admission officers to calculate a candidate's aggregate scores for the west african senior school certificate examination (wassce) based on their subject grades. features a user-friendly interface and instant results display.",
-      technologies: ["React", "Tesseract JS", "OCR API", "CSS"],
+      description: "a desktop application that allows university admission officers to calculate a candidate's aggregate scores for the west african senior school certificate examination (wassce) based on their subject grades. features a user-friendly interface and instant results display.",
+      technologies: ["React", "TensorFlow", "Image Preprocessing", "OCR", "CSS"],
       githubUrl: "https://github.com/Rosemond-kay/Custom-Exam-Results-OCR",
       liveUrl: "https://example.com"
     },
     {
       title: "MindMama - An AI-powered mobile app for mothers to manage their chores and tasks",
-      description: "mobile app that leverages ai to help mothers organize and manage their daily chores and tasks efficiently. features voice recognition, smart reminders, and personalized task suggestions.",
+      description: "mobile app that leverages ai to help mothers organize and manage their daily chores and tasks efficiently. features voice recognition, smart reminders and personalized recipes.",
       technologies: ["React Native", "TypeScript", "Expo", "Tailwind CSS"],
       githubUrl: "https://github.com/kenza-borja/MindMama/tree/main/frontend",
     },
     {
-      title: "TaskFlow - A Task Management App for Teams",
-      description: "web app that allows users to create beautiful portfolio websites without coding. features customizable templates, drag-and-drop editor, and one-click deployment.",
+      title: "TaskFlow - A Task Management App",
+      description: "a task management application designed to help users organize and prioritize their daily tasks effectively. features include task creation, an admin dashboard, deadlines and progress tracking.",
       technologies: ["React js", "TypeScript", "Supabase", "TailwindCSS"],
       githubUrl: "https://github.com/rosemondampomah/portfolio-builder",
       liveUrl: "https://taskflow-management-app.vercel.app/"
