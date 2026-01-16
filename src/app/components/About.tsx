@@ -95,7 +95,7 @@ export default function About() {
           <Twitter size={20} />
         </a>
         <a
-          href="https://linkedin.com/in/rosemondampomah"
+          href="https://linkedin.com/in/rosemond-ampomah"
           target="_blank"
           rel="noopener noreferrer"
           className="text-[#808080] hover:text-[#D6B4FC] transition-colors"

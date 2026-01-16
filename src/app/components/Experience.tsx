@@ -14,8 +14,8 @@ export default function Experience() {
     {
       title: "Software Developer Intern",
       company: "Digiits Agency",
-      period: "October 2025 - Present",
-      duration: "- ongoing",
+      period: "October 2025 - December 2025",
+      duration: "3 months",
       description: "Assisted in developing client websites and learning modern web development practices. Participated in code reviews and team meetings.",
       technologies: ["React", "TypeScript", "API Integration", "Tailwind CSS", "React Native"]
     },

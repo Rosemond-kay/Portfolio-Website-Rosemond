@@ -22,13 +22,13 @@ export default function Projects() {
       description: "a sleek and modern personal portfolio website designed to showcase projects, skills, and experience. features a responsive design, minimal features and easy navigation.",
       technologies: ["React", "TypeScript", "Tailwind CSS", "Vite"],
       githubUrl: "https://github.com/Rosemond-kay/Portfolio-Website-Rosemond",
-      liveUrl: "https://example.com"
+      liveUrl: "https://rosemond-ampomah.vercel.app/"
     },
     {
       title: "WASSCE Results Aggregate Calculator",
       description: "a web application that allows university admission officers to calculate a candidate's aggregate scores for the west african senior school certificate examination (wassce) based on their subject grades. features a user-friendly interface and instant results display.",
       technologies: ["React", "Tesseract JS", "OCR API", "CSS"],
-      githubUrl: "https://github.com/Rosemond-kay/Aggregate-Calculator",
+      githubUrl: "https://github.com/Rosemond-kay/Custom-Exam-Results-OCR",
       liveUrl: "https://example.com"
     },
     {
