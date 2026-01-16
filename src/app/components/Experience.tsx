@@ -12,36 +12,36 @@ interface ExperienceItem {
 export default function Experience() {
   const experiences: ExperienceItem[] = [
     {
-      title: "Senior Frontend Developer",
-      company: "Tech Company",
-      period: "January 2023 - Present",
-      duration: "1 year 11 months",
-      description: "Leading frontend development for enterprise-scale web applications. Building reusable component libraries and establishing frontend architecture patterns.",
-      technologies: ["React", "TypeScript", "Next.js", "Tailwind CSS", "GraphQL"]
-    },
-    {
-      title: "Frontend Developer",
-      company: "Digital Agency",
-      period: "March 2021 - December 2022",
-      duration: "1 year 9 months",
-      description: "Developed responsive web applications for various clients. Collaborated with designers to implement pixel-perfect UI components and optimize user experiences.",
-      technologies: ["React", "JavaScript", "CSS", "REST APIs", "Git"]
-    },
-    {
-      title: "Junior Frontend Developer",
-      company: "Startup Inc",
-      period: "June 2019 - February 2021",
-      duration: "1 year 8 months",
-      description: "Built and maintained frontend features for a growing SaaS platform. Worked closely with the design team to create intuitive user interfaces.",
-      technologies: ["HTML", "CSS", "JavaScript", "React", "Redux"]
-    },
-    {
-      title: "Frontend Developer Intern",
-      company: "Web Solutions",
-      period: "January 2019 - May 2019",
-      duration: "5 months",
+      title: "Software Developer Intern",
+      company: "Digiits Agency",
+      period: "October 2025 - Present",
+      duration: "- ongoing",
       description: "Assisted in developing client websites and learning modern web development practices. Participated in code reviews and team meetings.",
-      technologies: ["HTML", "CSS", "JavaScript", "Bootstrap"]
+      technologies: ["React", "TypeScript", "API Integration", "Tailwind CSS", "React Native"]
+    },
+    {
+      title: "Edtech Enthusiast",
+      company: "Brilliant Maths and Science Education",
+      period: "September 2022 - August 2025",
+      duration: "3 years",
+      description: "Integrated digital tools and e-learning platforms to enhance engagement, accessibility and assessment efficiency in hybrid classroom settings.",
+      technologies: ["Requirements Gathering", "Data Analytics", "Stakeholder Engagement", "Project Delivery", "Project Management"]
+    },
+    {
+      title: "Business Analyst",
+      company: "Stanbic Bank Ghana",
+      period: "November 2021 - Saptember 2022",
+      duration: "11 months",
+      description: "Supported enhancements to QA workflows, contributing to more efficient software deployments while maintaining compliance and quality standards.",
+      technologies: ["Project management", "Agile Methodology", "Business Analysis", "Databases", "Data Analytics"]
+    },
+    {
+      title: "IT Support Intern",
+      company: "Ghana Broadcasting Corporation",
+      period: "June 2019 - August 2019",
+      duration: "3 months",
+      description: "Reduced security vulnerabilities by 50% through implementation of cybersecurity protocols and system hardening.",
+      technologies: ["Cybersecurity", "Computer Networking", "Troubleshooting", "Computer Hardware"]
     }
   ];
 
@@ -49,7 +49,7 @@ export default function Experience() {
     <div className="space-y-8">
       {/* Heading */}
       <div className="flex items-center justify-between mb-12">
-        <h1 className="text-4xl md:text-5xl text-[#d4af37]">
+        <h1 className="text-4xl md:text-5xl text-[#D6B4FC]">
           experience
         </h1>
       </div>
@@ -61,7 +61,7 @@ export default function Experience() {
             key={index}
             className="border-b border-[#1a1a1a] pb-8 last:border-b-0"
           >
-            <h2 className="text-xl text-[#d4af37] mb-2">
+            <h2 className="text-xl text-[#D6B4FC] mb-2">
               {exp.title}
             </h2>
             

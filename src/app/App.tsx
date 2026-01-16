@@ -14,7 +14,7 @@ export default function App() {
           <button
             onClick={() => setCurrentPage('about')}
             className={`text-base transition-colors ${
-              currentPage === 'about' ? 'text-[#d4af37]' : 'text-[#808080] hover:text-[#d4af37]'
+              currentPage === 'about' ? 'text-[#D6B4FC]' : 'text-[#808080] hover:text-[#D6B4FC]'
             }`}
           >
             about
@@ -22,7 +22,7 @@ export default function App() {
           <button
             onClick={() => setCurrentPage('experience')}
             className={`text-base transition-colors ${
-              currentPage === 'experience' ? 'text-[#d4af37]' : 'text-[#808080] hover:text-[#d4af37]'
+              currentPage === 'experience' ? 'text-[#D6B4FC]' : 'text-[#808080] hover:text-[#D6B4FC]'
             }`}
           >
             experience
@@ -30,7 +30,7 @@ export default function App() {
           <button
             onClick={() => setCurrentPage('projects')}
             className={`text-base transition-colors ${
-              currentPage === 'projects' ? 'text-[#d4af37]' : 'text-[#808080] hover:text-[#d4af37]'
+              currentPage === 'projects' ? 'text-[#D6B4FC]' : 'text-[#808080] hover:text-[#D6B4FC]'
             }`}
           >
             projects
